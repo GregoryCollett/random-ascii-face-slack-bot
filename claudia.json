@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "random-ascii-face-bot-executor",
+    "name": "random-ascii-face-bot",
+    "region": "eu-west-1"
+  },
+  "api": {
+    "id": "16sozmm2ub",
+    "module": "bot"
+  }
+}

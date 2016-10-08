@@ -1,0 +1,14 @@
+{
+  "name": "random-ascii-face-bot",
+  "version": "0.0.1",
+  "description": "random ascii face bot :)",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GCollett",
+  "license": "ISC",
+  "dependencies": {
+    "claudia-bot-builder": "^2.0.0"
+  }
+}
