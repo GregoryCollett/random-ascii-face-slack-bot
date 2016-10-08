@@ -1,9 +1,3 @@
-var botBuidler = require('claudia-bot-builder');
-var asciiFace = require('./random-ascii-face');
+var bot = require('./src/index');
 
-module.exports = botBuidler(function(request) {
-  return {
-    text: asciiFace(),
-    response_type: 'in_channel'
-  }
-});
+module.exports = bot();

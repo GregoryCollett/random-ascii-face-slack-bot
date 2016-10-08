@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "claudia-bot-builder": "^2.0.0"
+  },
+  "devDependencies": {
+    "claudia": "^2.1.0"
   }
 }
