@@ -5,7 +5,7 @@ module.exports = function() {
   return botBuidler(function(request) {
     if (request.text) {
       return {
-        text: asciiFace() + ' : ' + response.text,
+        text: asciiFace() + ' : ' + request.text,
         response_type: 'in_channel'
       }
     }
