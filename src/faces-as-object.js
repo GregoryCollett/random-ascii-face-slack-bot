@@ -281,5 +281,6 @@ var faces = {
   97: "(ﾉಥ益ಥ）ﾉ",
   98: "≧☉_☉≦",
   99: "⊙▃⊙"
-}
+};
+
 module.exports = faces;
