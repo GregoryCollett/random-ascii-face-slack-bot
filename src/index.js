@@ -1,6 +1,7 @@
 var botBuidler = require('claudia-bot-builder');
 var asciiFace = require('./ascii-face');
 
+console.log(asciiFace('krang'));
 module.exports = function() {
   return botBuidler(function(request) {
     if (request.text) {
